@@ -2,7 +2,11 @@
   <div>
     <h1>{{title}}</h1>
     <ul> 
-      <book_item v-for="book in books" :book='book'></book_item>
+       <book-item
+        v-for='book in books'
+        :key='book.id'
+        :book='book'
+      >{{book.title}}:{{book.author}}</book-item>
     </ul>
   </div>
 </template>
