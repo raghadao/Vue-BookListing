@@ -12,10 +12,11 @@ export default {
       title: 'All Books',
    }
 
- }
-
-
+  }
 }
+</script>
+
+
 <style>
 h1, h2 {
   font-weight: normal;
