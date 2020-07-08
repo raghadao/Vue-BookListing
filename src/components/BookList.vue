@@ -33,4 +33,9 @@ h1, h2 {
   list-style-type: none;
 
  }
+ li{
+ display: block;
+ margin: 0 10px;
+
+ }
 </style> 
